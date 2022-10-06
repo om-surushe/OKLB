@@ -33,6 +33,7 @@ ans_res = []
 res = []
 
 for i in range(len(total)):
+    print("================================================================")
     res.append(str(input(total[i][0])))
 
 for i in range(len(total)):
