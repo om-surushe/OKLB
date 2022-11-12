@@ -15,16 +15,16 @@ nlp = spacy.load("en_core_web_md")
 
 total = [] # for random questions from set
 
-with open("./type1.csv", 'r') as file:
+with open("../Data/HR/type1.csv", 'r') as file:
     csvreader = list(csv.reader(file))
     total.append(csvreader[random.randint(0,len(csvreader)-1)])
-with open("./type2.csv", 'r') as file:
+with open("../Data/HR/type2.csv", 'r') as file:
     csvreader = list(csv.reader(file))
     total.append(csvreader[random.randint(0,len(csvreader)-1)])
-with open("./type3.csv", 'r') as file:
+with open("../Data/HR/type3.csv", 'r') as file:
     csvreader = list(csv.reader(file))
     total.append(csvreader[random.randint(0,len(csvreader)-1)])
-with open("./type4.csv", 'r') as file:
+with open("../Data/HR/type4.csv", 'r') as file:
     csvreader = list(csv.reader(file))
     total.append(csvreader[random.randint(0,len(csvreader)-1)])
 
